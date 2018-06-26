@@ -13,83 +13,74 @@
   <!-- background image is in div class cover  -->
   <div class="cover">
     <!-- menu bar and title -->
-    <nav role="navigation">
-      <h1> NAMYA UNCHAINED </h1>
-      <!-- responsive hamburger menu that turns into x & menu options -->
-      <div id="menuToggle">
-        <input type="checkbox" />
-        <!-- hamburger menu  -->
-        <span></span>
-        <span></span>
-        <span></span>
-        <!-- drop down menu -->
-        <ul id="menu">
-          <a href="#"><li>Memes</li></a>
-          <a href="#"><li>Videos</li></a>
-          <a href="#"><li>Photoshops</li></a>
-        </ul>
+    <header role="navigation">
+      <div id="headerleft">
+        <nav>
+          <div id="mainmenu">
+            <a href="meme.html"><li>Memes</li></a>
+            <a href="video.html"><li>Videos</li></a>
+            <a href="photoshop.html"><li>Photoshops</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="http://www.dictionary.com/browse/privacy?s=t">Privacy</a>
+          </div>
+        </nav>
       </div>
-    </nav>
+
+      <div id="title">
+        <h1><a href="index.html"> NAMYA UNCHAINED </a></h1>
+      </div>
+    </header>
   </div>
   <!-- middle section includes bio, heading with their links, subscribe box, and
   header 2. Background is grey. -->
   <div class = "middle_section">
-    <p> By day, Namya is a college student and avid memer. By night,
-      anything she wants. Namya Unchained is a platform for Namya to
-      showcase and publicize her work that includes carefully handcrafted
-      memes, photoshops, videos, and gifs. Sources say that people laugh
-      an average of eighteen times per day, but Namya Unchained strives
-      to help people exceed that number. </p>
-    <div class = "headings">
-      <div>
-        <div class = "headertitle1"> Content </div>
-        <ul class = "stuff">
-          <li><a href="#">Memes</a></li>
-          <li><a href="#">Videos</a></li>
-          <li><a href="#">Photoshops</a></li>
-        </ul>
-      </div>
 
-      <div>
-      <div class = "headertitle2">About me </div>
-        <ul class = "stuff">
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Biography</a></li>
-        </ul>
+    <div class = "Memes">
+      <h2>MEMES</h2>
+      <div class="pics">
+        <div id="left">
+          <img src="/images/Aidansmile.jpeg">
+        </div>
+        <div id="right">
+          <img src="/images/Katiedress.jpeg">
+        </div>
       </div>
-
-      <div>
-        <div class = "headertitle3"> Hire Me </div>
-        <ul class = "stuff">
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Customer Reviews</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="http://www.dictionary.com/browse/privacy?s=t">Privacy</a></li>
-        </ul>
+      <div class="show_more_button">
+          <a href="meme.html">Show me more</a>
+      </div>
+    </div>
+    <div class = "Photoshops">
+      <h2>PHOTOSHOPS</h2>
+      <div class="pics">
+        <div id="left_p">
+          <img src="/images/LinZIzzyfight.png">
+        </div>
+        <div id="right_p">
+          <img src="/images/LinZquidditch.jpeg">
+        </div>
+      </div>
+      <div class="show_more_button">
+        <a href="photoshop.html">Show me more</a>
       </div>
     </div>
 
-    <div class="subscribe">
-      <div> Subscribe for weekly memes! </div>
-      <input class="email_bar" placeholder="Email Address">
-      <div class="wrap">
-        <a class="special_button button" href="#">Meme Me</a>
-      </div>
-    </div>
 
-    <h2>Anyone have chains or a leash? </h2>
+    <h2 id="first_line">Anyone have chains or a leash? </h2>
     <h2>Namya cannot be tamed.</h2>
   </div>
   <!-- icons to social media in footer -->
   <footer>
-    <ul class="footer">
-      <li class="icons"><a href="https://www.instagram.com/namyaunchained/?hl=en">
-          <i class="fab fa-instagram"></i></a></li>
-      <li class="icons"><a href="https://twitter.com/namyamalik">
-        <i class="fab fa-twitter-square"></i></a></li>
-      <li class="icons"><a href="https://www.facebook.com/namya.malik.7">
-        <i class="fab fa-facebook-square"></i></a></li>
-    </ul>
+    <div class="footer">
+      <div class="icons">
+        <div><a href="https://www.instagram.com/namyaunchained/?hl=en">
+              <img class="icon" src="/images/instagram.png"></a></div>
+        <div><a href="https://www.facebook.com/namya.malik.7">
+            <img class="icon" src="/images/facebook.png"></a></div>
+        <div><a href="https://twitter.com/namyamalik">
+            <img class="icon" src="/images/twitter.png"></a></div>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
