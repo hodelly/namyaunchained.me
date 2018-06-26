@@ -20,6 +20,14 @@ body {
   height: 100vh;
   padding-top: 0px;
 }
+.video_cover {
+  background-image: url(./images/nam1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 0px;
+}
 
 .about_cover {
   background-image: url(./images/Nam4.JPG);
