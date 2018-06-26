@@ -133,10 +133,11 @@ p {
     float: left;
     /* height: 50vh;; */
     width: 40vw;
+    max-height: 400px;
 }
 #left_p img, #right_p img{
   /* max-width: 500px; */
-  max-height: 400px;
+  max-height: 300px;
   margin: 20px;
 }
 .show_more_button {
