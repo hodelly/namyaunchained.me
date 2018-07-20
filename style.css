@@ -224,12 +224,14 @@ h2 {
   display: flex;
   flex-direction: row;
   color: white;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .left_footer a, .left_footer a:visited{
   color: white;
   line-height: 25px;
   padding-right: 80px;
+  padding-left: 30px;
+  font-size: 15px;
 }
 .left_footer a:hover {
   color:grey;
@@ -278,6 +280,10 @@ a:link, a:visited {
   height: auto;
   padding: 10px;
 }
+.memes {
+  display: flex;
+  align-items: center;
+}
 .xtina_linz img {
   max-width: 45%;
   height: auto;
@@ -289,6 +295,14 @@ a:link, a:visited {
 .meme_page h1 {
   text-align: center;
 }
+
+/* PHOTOSHOPS PAGE LAYOUT */
+.photoshops img {
+  max-width: 30%;
+  height: auto;
+  padding: 10px;
+}
+
 /* media query adjusts font size, cover picture size, and margins to make sure
 everthing fits in small computer screen or on phone */
 @media only screen and (max-width: 640px) {
