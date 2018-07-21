@@ -225,13 +225,14 @@ h2 {
   flex-direction: row;
   color: white;
   margin-left: 30px;
+  align-items: center;
 }
 .left_footer a, .left_footer a:visited{
   color: white;
-  line-height: 25px;
+  line-height: 15px;
   padding-right: 80px;
   padding-left: 30px;
-  font-size: 15px;
+  font-size: 12px;
 }
 .left_footer a:hover {
   color:grey;
@@ -303,8 +304,8 @@ a:link, a:visited {
   justify-content: center;
 }
 .photoshops img {
-  max-height: 300px;
-  /* max-width: 30%; */
+  max-height: 250px;
+  max-width: 500px;
   padding: 10px;
 }
 
