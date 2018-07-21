@@ -297,9 +297,14 @@ a:link, a:visited {
 }
 
 /* PHOTOSHOPS PAGE LAYOUT */
+.photoshops {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .photoshops img {
-  max-width: 30%;
-  height: auto;
+  max-height: 300px;
+  /* max-width: 30%; */
   padding: 10px;
 }
 
