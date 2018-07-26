@@ -53,6 +53,14 @@ body {
   height: 100vh;
   padding-top: 0px;
 }
+.gif_cover {
+  background-image: url(./images/nam_bike.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 0px;
+}
 header {
   display: flex;
   flex-direction: row;
@@ -328,6 +336,20 @@ a:link, a:visited {
   min-height: 300px;
   margin: 20px;
 }
+
+/* GIFS PAGE LAYOUT */
+.gifs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gifs img {
+  max-height: 500px;
+  /* max-width: 500px; */
+  padding: 10px;
+}
+}
+
 /* media query adjusts font size, cover picture size, and margins to make sure
 everthing fits in small computer screen or on phone */
 @media only screen and (max-width: 640px) {
