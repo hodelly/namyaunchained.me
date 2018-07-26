@@ -57,7 +57,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgba(255,255,255, 0.5);
+  background-color: rgba(200, 200, 200, .5);
   height:80px;
 
 }
@@ -308,7 +308,26 @@ a:link, a:visited {
   max-width: 500px;
   padding: 10px;
 }
-
+/* CONTACT PAGE LAYOUT */
+.contact_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact_page input{
+  font-size: 30px;
+  line-height: 45px;
+  width: 700px;
+  margin: 20px;
+}
+.contact_page textarea{
+  font-size: 30px;
+  line-height: 45px;
+  width: 700px;
+  min-height: 300px;
+  margin: 20px;
+}
 /* media query adjusts font size, cover picture size, and margins to make sure
 everthing fits in small computer screen or on phone */
 @media only screen and (max-width: 640px) {
