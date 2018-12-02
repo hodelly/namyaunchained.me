@@ -70,13 +70,47 @@ header {
 
 }
 
-#mainmenu {
+#mainmenu ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: stretch;
   list-style-type: none;
   margin-top: 30px;
+}
+#mainmenu li {
+  color: #fff;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+transition-duration: 0.5s;
+}
+#mainmenu li:hover {
+  background: red;
+}
+#mainmenu ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  min-width: 5rem;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  background: white;
+}
+
+ul li ul li{
+  clear: both;
+  width: 100%;
 }
 #mainmenu a {
   padding-left: 20px;
@@ -90,7 +124,7 @@ header {
 * {
   position: relative;
 }
-
+/*
 #mainmenu > a:before {
   content: "";
   position: absolute;
@@ -108,7 +142,7 @@ header {
 #mainmenu > a:focus:before {
   visibility: visible;
   transform: scaleX(1);
-}
+} */
 
 #title {
   margin-right:20px;
